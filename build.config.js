@@ -16,7 +16,7 @@ module.exports = function () {
 				vendor: [
 					'jquery/dist/jquery.min.js',
 					'materialize-css/dist/js/materialize.min.js',
-          'fancybox/dist/js/jquery.fancybox.pack.js'
+          			'fancybox/dist/js/jquery.fancybox.pack.js'
 				],
 
 				source: [

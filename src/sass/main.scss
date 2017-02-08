@@ -1,0 +1,145 @@
+.main-box{
+	background: #fff;
+	margin-top: 10px;
+	padding-bottom: 70px;
+}
+
+.main-img{
+	height: 620px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+}
+
+.ovarlay{
+	position: absolute;
+	height: 100%;
+	width: 100%;
+    background-color: rgba(44, 50, 60, 0.75);
+}
+
+.inside{
+	    width: 832px;
+       position: absolute;
+       left: 150px;
+       bottom: 0;
+       padding-bottom: 106px;
+	p{
+	   margin: 0 0 10px;
+       font-weight: bold;
+       margin-top: 40px;
+       color: #fff;
+       margin: 0;
+       font-size: 64px;
+       line-height: normal;
+
+   }
+
+}
+
+.box-history{
+	width: 700px;
+    margin: 0 auto;
+    background: transparent;
+
+    h3{
+    	line-height: 1.5;
+        color: #2c333d;
+        font-size: 44px;
+        font-weight: bold;
+        margin-top: 48px;
+    }
+
+    p{
+      line-height: 1.5;
+      color: #585d5e;
+      font-size: 17px;
+      font-weight: normal;
+    }
+}
+
+.country-category{
+	background: #fff;
+    margin-top: 20px;
+}
+
+.box-country-category{
+	width: 700px;
+    margin: 0 auto;
+    background: transparent;
+    text-align: center;
+
+    ul{
+       padding-left: 0;
+       display: inline-block;
+       margin-bottom: 0;
+       font-weight: bold;
+       list-style-type: none;
+    }
+
+    li{
+    	float: left;
+    	padding: 15px 19px;
+    }
+    a{
+      color: black;
+      font-size: 12px;
+      font-weight: bold;
+     }
+}
+
+.staff{
+	overflow: hidden;
+    margin-top: 20px;
+
+    .person{
+    	margin-bottom: 10px;
+    	padding: 0 10px;
+
+    }
+}
+
+.sentence{
+	background: #2c333d;
+	text-align: center;
+	padding-bottom:40px;
+	margin-top: 5px;
+	padding-top: 50px;
+
+	h3{
+    font-family: Montserrat,sans-serif;
+    line-height: normal;
+    color: #fff;
+    font-size: 28px;
+    margin-top: 0;
+    font-weight: bold;
+    margin-bottom: 40px;
+	}
+}
+
+.btn-blue{
+	 border: solid 2px #43abff;
+    font-family: Montserrat;
+    font-style: normal;
+    line-height: normal;
+    color: #43abff;
+    font-size: 11px;
+    font-weight: bold;
+    font-weight: bold;
+    padding: 10px 30px;
+}
+
+.box-text{
+	background-color: #fff;
+	padding-top: 60px;
+    padding-bottom: 30px;
+	h3{
+    	line-height: 1.5;
+        color: #2c333d;
+        font-size: 44px;
+        font-weight: bold;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+}

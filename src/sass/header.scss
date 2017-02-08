@@ -1,0 +1,21 @@
+.header {
+	font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    color: #2C333D;
+    text-transform: uppercase;
+    background: #F0F1F5;
+
+    .logo{
+    	display: inline-block;
+    }
+}
+.navbar{
+	position: relative;
+    min-height: 50px;
+    padding-bottom: 10px;
+    padding-top: 30px;
+    border: 1px solid transparent;
+    margin-bottom: 0px;
+}
+
