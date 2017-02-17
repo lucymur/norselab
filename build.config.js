@@ -52,7 +52,8 @@ module.exports = function () {
 				],
 
 				vendor: [
-					'materialize-css/fonts/**/*'
+					'materialize-css/fonts/**/*',
+					'font-awesome/fonts/**/*'
 				]
 			}
 		}
