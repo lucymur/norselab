@@ -22,7 +22,12 @@ img{
 	}
 }
 
-.sentence-box{
-	  width: 700px;
-    margin: 0 auto;
+.container{
+	@extend .clearfix;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+.row{
+	@extend .clearfix;
 }

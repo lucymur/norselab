@@ -2,12 +2,6 @@
 
 @import 'base';
 
-.container{
-	@extend .clearfix;
-	margin: 0 auto;
-	max-width: 100%;
-}
-
 @import 'header';
 
 @import 'navigation';
@@ -15,5 +9,10 @@
 @import 'main';
 
 @import 'footer';
+
+@import 'dialog';
+
+@import 'dialogmobile';
+
 
 

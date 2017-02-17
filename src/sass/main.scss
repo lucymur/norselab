@@ -20,7 +20,7 @@
 }
 
 .inside{
-	    width: 832px;
+	   max-width: 832px;
        position: absolute;
        left: 150px;
        bottom: 0;
@@ -39,7 +39,7 @@
 }
 
 .box-history{
-	width: 700px;
+	max-width: 700px;
     margin: 0 auto;
     background: transparent;
 
@@ -49,6 +49,10 @@
         font-size: 44px;
         font-weight: bold;
         margin-top: 48px;
+
+		@media  (max-width: $screen-xs-max ){
+				font-size: 26px;
+		}
     }
 
     p{
@@ -65,7 +69,7 @@
 }
 
 .box-country-category{
-	width: 700px;
+	max-width: 700px;
     margin: 0 auto;
     background: transparent;
     text-align: center;
@@ -118,6 +122,11 @@
 	}
 }
 
+.sentence-box{
+	max-width: 700px;
+    margin: 0 auto;
+}
+
 .btn-blue{
 	 border: solid 2px #43abff;
     font-family: Montserrat;
@@ -143,3 +152,72 @@
         margin-bottom: 10px;
     }
 }
+
+@media  (max-width: $screen-xs-max ){
+	.box-text h3 {
+		font-size: 26px;
+	}
+}
+
+.items{
+	padding-left: 0;
+    background-color: #fff;
+    list-style-type: none;
+    overflow: hidden;
+    margin-top: 10px;
+
+	li{
+		float: left;
+		padding: 21px 28px;
+	}
+
+	a{
+		color: black;
+		font-size: 11px;
+        font-weight: bolder;
+	}
+}
+
+.box{
+	background: #fff;
+	margin-bottom: 15px;
+	padding-bottom: 30px;
+
+    .img{
+    	height: 238px;
+    	background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+
+    }
+
+    .text{
+        padding: 0 30px;
+
+    	h3{
+			  line-height: normal;
+			  color: #2c333d;
+			  font-size: 20px;
+			  font-weight: bold;
+    	}
+
+    	p{
+			  line-height: normal;
+			  color: #585d5e;
+			  font-size: 16px;
+			  font-weight: normal;
+
+    	}
+
+    	span{
+    		 line-height: normal;
+			  color: #979b9e;
+			  font-size: 10px;
+			  font-weight: normal;
+    	}
+    }
+
+
+}
+
+
