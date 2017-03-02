@@ -6,6 +6,12 @@
     left: 0;
     right: 0;
     z-index: 70;
+
+    &.header-fixed {
+        .header_logo {
+            width: 150px;
+        }
+    }
 }
 
 .header_top__navigation{
@@ -33,6 +39,9 @@
 .header_logo{
 	text-align: center;
 	margin: 8px 0 30px;
+    transition: .5s all;
+    width: 100%;
+
 	.logo_img{
 		width: 180px;
 		@media (max-width: $screen-xs-max){
