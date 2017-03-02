@@ -1,0 +1,37 @@
+  .btn {
+  border-radius: 2px;
+  background-color: #242331;
+  padding: 15px 30px 12px;
+  line-height: 1;
+  position: relative;
+  &:hover{
+  	background-color: #504f5a;
+  }
+
+  a{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #ffffff;
+    text-decoration: none;
+    @media (max-width: 767px)
+ {
+    font-size: 10px;
+
+   
+}
+  }
+
+  @media (max-width: 767px){
+
+    font-size: 14px;
+   padding: 12px 20px;
+}
+}
+
+.wrapper{
+    background: #fff;
+    width: 972px;
+    padding: 10px;
+    margin: 0 auto;
+}

@@ -35,10 +35,8 @@ module.exports = function () {
 
 			html: [
 				'index.html',
-				'frontpage.html',
-                'arbeideroppdatert.html',
-				'dialog.html',
-                'dialogmobile.html',
+                'style.html',
+                'footer.html',
 			],
 
 			sass: {

@@ -1,21 +1,135 @@
-.header {
-	font-family: Montserrat,sans-serif;
-    font-weight: 700;
-    font-size: 11px;
-    color: #2C333D;
-    text-transform: uppercase;
-    background: #F0F1F5;
+.header{
+	background: white;
+	box-shadow: 0px 2px 5px #e9e9ea;
+	position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 70;
+}
 
-    .logo{
-    	display: inline-block;
+.header_top__navigation{
+	float: right;
+	padding: 0;
+	list-style-type: none;
+	margin-top: 15px;
+
+}
+
+.header_top__item{
+	display: inline-block;
+}
+
+.header_top__link{
+	display: inline-block;
+	padding: 0 0 0 18px;
+	color: #868585;
+}
+
+.container_header{
+  position: relative;
+}
+
+.header_logo{
+	text-align: center;
+	margin: 8px 0 30px;
+	.logo_img{
+		width: 180px;
+		@media (max-width: $screen-xs-max){
+		width: 110px;
+		text-align: center;
+	   }
+	}
+}
+
+.logo_link{
+	display: inline-block;
+}
+
+.header_navigation{
+    font-size: 0;
+    text-align: center;
+
+}
+
+.navigation_menu{
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	margin-bottom: 0;
+
+	.navigation_item{
+		float: left;
+	}
+
+	.navigation_link{
+		  font-size: 17px;
+          font-weight: bold;
+          color: #292929;
+          display: inline-block;
+          padding: 12px 32px;
+          text-decoration: none;
+	}
+}
+
+.hero{
+    max-width: 1920px;
+    max-height: 563px;
+    position: relative;
+    height: 563px;
+    margin-top: 175px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    @media only screen and (max-width: 1024px){
+    margin-top: 0;
+    height: 445px;
+    padding-top: 46px;
     }
 }
-.navbar{
-	position: relative;
-    min-height: 50px;
-    padding-bottom: 10px;
-    padding-top: 43px;
-    border: 1px solid transparent;
-    margin-bottom: 0px;
+
+.hero_overlay{
+	&:before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.6);
+	}
+}
+
+.block-table{
+	display: table;
+	height: 100%;
+	width: 100%;
+
+	.block-row{
+    display: table-row;
+	}
+	.block-cell{
+     display: table-cell;
+     vertical-align: middle;
+    text-align: center;
+	}
+}
+
+.hero-title{
+    margin: 0 auto 35px;
+    max-width: 877px;
+    position: relative;
+    color: #fff;
+
+    h1{
+      font-size: 60px;
+      font-weight: 600;
+      @media only screen and (max-width: 767px)
+ {
+    font-size: 30px;
+    margin-bottom: 0;
+}
+    }
 }
 
