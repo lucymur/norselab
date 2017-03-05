@@ -156,32 +156,43 @@
 
 .info_chair{
 	position: relative;
+    font-size: 0;
 
 	.chair_item__title{
-    font-size: 22px;
-    font-weight: bold;
-    line-height: 1.18;
-    color: #242331;
-    @media only screen and (max-width: 767px)
- {
-    font-size: 18px;
-}
-}
-	p{
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 1.18;
+        color: #242331;
+
+        @media only screen and (max-width: 767px) {
+            font-size: 18px;
+        }
+    }
+
+	p {
 		line-height: 1.38;
 	}
 }
 
 .chair_deckription{
-	 max-width: 140px; 
+    max-width: 140px; 
     display: inline-block;
-    width: 40%
+    vertical-align: bottom;
+    width: 40%;
+    font-size: 16px;
+
+    p {
+        margin-bottom: 0;
+    }
 }
 
 .chair_item__moreinfo{
-	float: right;
+    font-size: 14px;
 	width: 60%;
     text-align: right;
+    display: inline-block;
+    vertical-align: bottom;
+
     .chair_item__from{
     	margin: 0;
     	font-size: 16px;
@@ -430,6 +441,18 @@
 .newsletter_section{
 	margin: 49px auto 0;
     background: aliceblue;
+
+    &.left {
+        .b_follow {
+            float: left;
+        }
+    }
+
+    &.right {
+        .b_follow {
+            float: right;
+        }
+    }
 }
 
 .banner{
