@@ -37,6 +37,7 @@ module.exports = function () {
 				'index.html',
                 'style.html',
                 'footer.html',
+                'leftcolumn.html',
 			],
 
 			sass: {

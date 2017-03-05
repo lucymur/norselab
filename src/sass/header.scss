@@ -3,16 +3,42 @@
 	box-shadow: 0px 2px 5px #e9e9ea;
 	position: fixed;
     top: 0;
-    left: 0;
+    left: 250px;
     right: 0;
-    z-index: 70;
+    z-index: 70;   
+}
 
-    &.header-fixed {
+.header_top{
+    @media only screen and (max-width: 1024px)
+ {
+    display: none;
+}
+}
+
+    .header-fixed {
         .header_logo {
             width: 150px;
+            display: inline-block;
+            float: left;
+            margin:0;
+            margin-top: 10px;
+            transition: 0.4s ease-out;
         }
-    }
+
+        .header_top{
+            display: none;
+        }
+
+        .header{
+            background: rgba(255,255,255,0.952941);
+            }
+
+
+       .header_navigation{
+        padding:10px 0 0;
+       }
 }
+
 
 .header_top__navigation{
 	float: right;
@@ -20,6 +46,20 @@
 	list-style-type: none;
 	margin-top: 15px;
 
+}
+
+.toogle_menu{
+    display: none;
+    @media only screen and (max-width: 1024px)
+ {
+    display: block;
+    float: left;
+    margin-top: 13px;
+    a{
+    font-size: 18px;
+    color: black;
+    }
+}
 }
 
 .header_top__item{
@@ -41,13 +81,16 @@
 	margin: 8px 0 30px;
     transition: .5s all;
     width: 100%;
+    @media only screen and (max-width: 1024px){
+    margin: 0;
+    padding: 8px 0;
+}
 
 	.logo_img{
 		width: 180px;
-		@media (max-width: $screen-xs-max){
-		width: 110px;
-		text-align: center;
-	   }
+		@media only screen and (max-width: 1024px) {
+    width: 110px;
+}
 	}
 }
 
@@ -58,6 +101,10 @@
 .header_navigation{
     font-size: 0;
     text-align: center;
+    @media only screen and (max-width: 1024px)
+ {
+    display: none;
+}
 
 }
 
@@ -86,6 +133,8 @@
     max-height: 563px;
     position: relative;
     height: 563px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 175px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -125,7 +174,10 @@
 	}
 }
 
-.hero-title{
+
+
+
+.hero_title{
     margin: 0 auto 35px;
     max-width: 877px;
     position: relative;
@@ -134,11 +186,10 @@
     h1{
       font-size: 60px;
       font-weight: 600;
-      @media only screen and (max-width: 767px)
- {
+      @media only screen and (max-width: 767px){
     font-size: 30px;
-    margin-bottom: 0;
-}
+    margin-bottom: 0px;
     }
-}
+  }
 
+}
