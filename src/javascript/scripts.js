@@ -12,4 +12,9 @@
 
 
 
+    $('.toogle_menu').on('click', function () {
+    	$('.layout').toggleClass('mobile-nav-opened');
+    	return false;
+    });
+
 })();

@@ -524,3 +524,17 @@
     height: 237px;
 }
 }
+
+
+.mobile-nav-opened {
+    .content-pusher {
+        @media only screen and (max-width: 1023px) {
+            transform: translate(250px, 0px);
+        }
+    }
+}
+
+.content-pusher {
+    // transform: translate(0px, 0px);
+    transition: .5s all;
+}

@@ -3,40 +3,39 @@
 	box-shadow: 0px 2px 5px #e9e9ea;
 	position: fixed;
     top: 0;
-    left: 250px;
+    // left: 250px;
+    left: 0;
     right: 0;
     z-index: 70;   
 }
 
 .header_top{
-    @media only screen and (max-width: 1024px)
- {
-    display: none;
+    @media only screen and (max-width: 1024px) {
+        display: none;
+    }
 }
-}
 
-    .header-fixed {
-        .header_logo {
-            width: 150px;
-            display: inline-block;
-            float: left;
-            margin:0;
-            margin-top: 10px;
-            transition: 0.4s ease-out;
-        }
+.header-fixed {
+    .header_logo {
+        width: 150px;
+        display: inline-block;
+        float: left;
+        margin:0;
+        margin-top: 10px;
+        transition: 0.4s ease-out;
+    }
 
-        .header_top{
-            display: none;
-        }
+    .header_top{
+        display: none;
+    }
 
-        .header{
-            background: rgba(255,255,255,0.952941);
-            }
+    .header{
+        background: rgba(255,255,255,0.952941);
+    }
 
-
-       .header_navigation{
+    .header_navigation{
         padding:10px 0 0;
-       }
+    }
 }
 
 
@@ -81,16 +80,17 @@
 	margin: 8px 0 30px;
     transition: .5s all;
     width: 100%;
+
     @media only screen and (max-width: 1024px){
-    margin: 0;
-    padding: 8px 0;
-}
+        margin: 0;
+        padding: 8px 0;
+    }
 
 	.logo_img{
 		width: 180px;
-		@media only screen and (max-width: 1024px) {
-    width: 110px;
-}
+        		@media only screen and (max-width: 1024px) {
+            width: 110px;
+        }
 	}
 }
 
@@ -101,24 +101,23 @@
 .header_navigation{
     font-size: 0;
     text-align: center;
-    @media only screen and (max-width: 1024px)
- {
-    display: none;
+
+    @media only screen and (max-width: 1024px) {
+        display: none;
+    }
 }
 
-}
-
-.navigation_menu{
+.navigation_menu {
 	padding: 0;
 	list-style: none;
 	display: inline-block;
 	margin-bottom: 0;
 
-	.navigation_item{
+	.navigation_item {
 		float: left;
 	}
 
-	.navigation_link{
+	.navigation_link {
 		  font-size: 17px;
           font-weight: bold;
           color: #292929;
@@ -128,21 +127,33 @@
 	}
 }
 
-.hero{
+.hero {
     max-width: 1920px;
     max-height: 563px;
     position: relative;
     height: 563px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 175px;
+    padding-top: 175px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    @media only screen and (max-width: 1024px){
-    margin-top: 0;
-    height: 445px;
-    padding-top: 46px;
+
+    &__bottom-area {
+        position: absolute;
+        left: 0;
+        bottom: 30px;
+        right: 0;
+    
+        & + .block-table {
+            padding-bottom: 40px;
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+        margin-top: 0;
+        height: 445px;
+        padding-top: 46px;
     }
 }
 
