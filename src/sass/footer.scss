@@ -1,33 +1,33 @@
-.footer{
+.footer {
 	padding-bottom: 53px;
 
-	@media only screen and (max-width: 767px){
+	@media only screen and (max-width: 767px) {
 		margin-top: 20px;
 		padding: 15px 0;
 	}
 }
 
-.social_link{
+.social_link {
 	text-align: center;
     margin: 0 0 10px;
-	ul{
+	ul {
 		padding-left: 0;
 		text-align: center;
 		margin-bottom: 0;
 	}
 
-	li{
+	li {
 		 list-style: none;
 	     list-style-type: none;
 		 display: inline-block;
 		 padding: 0 10px;
 
-		 @media only screen and (max-width: 767px){
+		 @media only screen and (max-width: 767px) {
     padding: 5px;
 }
 	}
 
-	a{
+	a {
 	width: 50px;
     display: block;
     border: solid 1px transparent;
@@ -48,105 +48,103 @@
   }
 }
 
-.facebook_soc{
-	 &:hover{
+.facebook_soc {
+	 &:hover {
     	 background-color: #3b5998;
     	 color: #fff;
     	 border-radius: 2px;
     }
 }
 
-.twitter_soc{
-	 &:hover{
+.twitter_soc {
+	 &:hover {
     	 background-color: #1da1f3;
     	 color: #fff;
     	 border-radius: 2px;
     }
 }
 
-.pinterest_soc{
-	 &:hover{
+.pinterest_soc {
+	 &:hover {
     	 background-color: #bd081c;
     	 color: #fff;
     	 border-radius: 2px;
     }
 }
 
-.instagram_soc{
-	 &:hover{
+.instagram_soc {
+	 &:hover {
     	 background-color: black;
     	 color: #fff;
     	 border-radius: 2px;
     }
 }
 
-.fill_soc{
-	 &:hover{
+.fill_soc {
+	 &:hover {
     	 background-color:  #de4b38;
     	 color: #fff;
     	 border-radius: 2px;
     }
 }
 
-.youtube_soc{
-	&:hover{
+.youtube_soc {
+	&:hover {
     	 background-color:   #e52d27;
     	 color: #fff;
     	 border-radius: 2px;
     }
 }
 
-.footer_navigation__menu{
+.footer_navigation__menu {
     text-align: center;
     margin: 0;
     padding: 0;
    
-    li{
+    li {
             padding: 12px 18px;
             display: inline-block;
             list-style-type: none;
-        :hover{
+        :hover {
                 border-bottom: 2px solid black;
             }
 
-            a{
+            a {
                 font-weight: 700;
                 color: #3f3f3f;
                 text-decoration: none;
                 padding: 4px 0;
                 font-size: 16px;
             }
-            @media only screen and (max-width: 767px)
- {
+            @media only screen and (max-width: 767px) {
     display: block;
 }
     }
 }
 
 
-.footer_navigation__menuu{
+.footer_navigation__menuu {
     text-align: center;
     margin: 0;
     padding: 0;
    
-    li{
+    li {
             padding: 12px 18px;
             display: inline-block;
             list-style-type: none;
-        :hover{
+        :hover {
                 border-bottom: 1.5px solid black;
             }
 
-            a{
+            a {
                 font-weight: 100;
                 color: #3f3f3f;
                 text-decoration: none;
                 padding: 4px 0;
                 font-size: 16px;
             }
-            @media only screen and (max-width: 767px)
-{
-    display: block;
+            @media only screen and (max-width: 767px) {
+             display: block;
 }
     }
 }

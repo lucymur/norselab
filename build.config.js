@@ -38,6 +38,7 @@ module.exports = function () {
                 'style.html',
                 'footer.html',
                 'leftcolumn.html',
+                'Ourphilosophy.html',
 			],
 
 			sass: {
